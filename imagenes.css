@@ -1,0 +1,282 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .mascotas {
+    width: 270px;
+    height: 200px;
+  }
+  
+ .ver-perfil{
+      background-color: white;
+      text-align: center;
+      color:white;
+      text-decoration: none;
+      margin: 20px;
+      font-weight: bold;
+      margin-right: 80px;
+      padding: 0PX;
+      border-radius: none;
+      text-decoration: none;
+      width: 0px;
+  }
+  
+  
+  .ver-perfil:hover{
+      background-color:#2C3E50;
+      color: aqua;
+      font-weight: bold;
+      padding: 15px;
+      width: 50px;
+      margin: 5px;
+      text-align: center;
+      justify-content: center;
+      border-radius: 30px;
+      text-decoration: none;
+  }
+  
+
+  .adoptar{
+    background-color: white;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+    margin-right: 80px;
+    padding: 0PX;
+    border-radius: none;
+    text-decoration: none;
+    width: 0px;
+}
+
+
+.adoptar:hover{
+    background-color:#2C3E50;
+    color: aqua;
+    font-weight: bold;
+    padding: 15px;
+    width: 50px;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+
+.am{
+    background-color: none;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+    margin-right: 80px;
+    padding: 0PX;
+    border-radius: none;
+    text-decoration: none;
+    width: 0px;
+}
+
+
+.am:hover{
+    background-color:#2C3E50;
+    color: aqua;
+    font-weight: bold;
+    padding: 15px;
+    width: 50px;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+
+  .ver-perfil{
+      text-align: right;
+      color:white;
+      text-decoration: none;
+      margin-right: 80px;
+  }
+  
+ 
+  .nomb-mascota{
+      text-decoration: none;
+      color: #48C9B0;
+      font-weight: bold;
+  }
+
+  .imagen{
+      background-color: black;
+      border-width: 5px;
+      border-style: solid;
+      border-color: gray;
+  }
+  
+  .imagen:hover{
+      border-width: 5px;
+      border-style: solid;
+      border-color: greenyellow;
+  }
+  
+  
+  .contenedor-imagenes{
+      display: flex;
+      gap: 25px;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: 0px;
+      margin-top: 74px;
+      justify-content: space-around;
+      border-width: 3px;
+      border-style: solid;
+      border-color: gray;
+      background: black;
+  }
+  
+  .imagen-superior {
+      font-size: 30px;
+      text-align: center;
+      font-family: monospace;
+  }
+  
+  .imagen-superior{
+      color: blue;
+  }
+  
+  
+  .imagen-inferior{
+      display: flex;
+      justify-content: space-around;
+  }
+  
+  
+  /*Menu principal*/
+  .menuprincipal {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      width: 100%;
+      height: 160px;
+      padding: 0% 0%;
+      margin: none;
+      background: black;
+      border-top: 1px solid #094660;
+      border-bottom: 1px solid #094660;
+      
+  }
+  
+  
+  .menuprincipal > div {
+      position: fixed;
+      flex: 1;
+      max-width: 100%;
+      width: 100%;
+      height: 225px;
+      margin: none;
+      border-width: 5px;
+      border-style: solid;
+      border-color: gray;
+      background: black;
+  }
+  
+  
+  
+  .header{
+      width: 100%;
+      align-content: center;
+      margin: 0px;
+      padding: 0%;
+      border-width: 5px;
+      border-style: solid;
+      border-color: gray;
+      background: black;
+  }
+  
+  
+  .titulo{
+      margin: 20px;
+      justify-content: center;
+      font: bold 18px Arial, sans-serif;
+      color: #006699;
+      text-decoration: none;
+  }
+  
+   .am{
+      margin: 20px;
+      justify-content: center;
+      font: bold 18px Arial, sans-serif;
+      color: #006699;
+      text-decoration: none;
+  }
+  
+  
+  
+  ul{
+      margin: 10px;
+    
+  }
+  
+  
+  /*
+  .am:hover{
+      background-color: #2C3E50;
+      color: aquamarine;
+      padding: 15px;
+      width: 300px;
+      margin: 5px;
+      text-align: center;
+      justify-content: center;
+      border-radius: 300px;
+      text-decoration: none;
+  }
+  
+  */
+  
+  
+  .logo{
+      margin:10px;
+      height: 75px;
+      width: 75px;
+      color: chartreuse;
+  }
+  
+  
+  #footer {
+      display: flex;
+      justify-content: center;
+      padding: 2%;
+      background-color: black;
+  }
+  #footer > div {
+      display: flex;
+      flex: 1;
+      background-color: #566573;
+      border-radius: 10px;
+  }
+  .secctioninferior {
+      flex: 1;
+      padding: 25px;
+  }
+  .secctioninferior h1 {
+      font: bold 20px Arial, sans-serif;
+  }
+  .secctioninferior p {
+      margin-top: 5px;
+  }
+  .secctioninferior a{
+      font: bold 16px Arial, sans-serif;
+      color: cornflowerblue;
+      text-decoration: none;
+  }
+  
+  .secctioninferior a:hover{
+      color: aquamarine;
+  }
+  
+  
+  
+  
